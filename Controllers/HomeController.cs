@@ -18,12 +18,16 @@ namespace WeeklyAssisment_04_12.Controllers
             _logger = logger;
         }
 
-        public IActionResult Index()
+        public IActionResult Home()
+        {
+            return View();
+        }
+        public IActionResult About()
         {
             return View();
         }
 
-        public IActionResult Privacy()
+        public IActionResult Contect()
         {
             return View();
         }
